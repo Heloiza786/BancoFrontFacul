@@ -1,0 +1,27 @@
+.Nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.Button a{
+  align-items: center;
+  /* background-color: black; */
+  color: rgb(93, 15, 117);
+  padding: 15px;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+}
+
+.Button a:hover {
+  color: aqua;
+}
+
+.Link {
+  pointer-events: none;
+}
+.MyLogo {
+  display: flex;
+}
+
